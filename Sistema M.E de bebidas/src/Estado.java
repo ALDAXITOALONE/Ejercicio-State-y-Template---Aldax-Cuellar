@@ -1,5 +1,5 @@
 public abstract class Estado {
-    public MaquinaExpendedora maquina;
+    protected MaquinaExpendedora maquina;
 
     public Estado(MaquinaExpendedora maquina) {
         this.maquina = maquina;
